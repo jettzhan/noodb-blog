@@ -170,16 +170,6 @@ scp -i ~/.ssh/id_rsa /Users/noodzhan/IdeaProjects/noodb/back-end/build/libs/back
 nohup java -jar -Dspring.profiles.active=dev back-end.jar &
 ```
 
-#### nginx 配置
-
-```shell
-scp -i ~/.ssh/id_rsa nblog-nginx.conf ubuntu@1.15.231.74:/etc/nginx/conf.d
-
-```
-
-```shell
-nginx -t
-```
 
 ```shell
 nginx -s reload
